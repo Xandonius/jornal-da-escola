@@ -68,15 +68,13 @@ footer {
     text-align: center;
     color: tomato;
     margin: 8px;
-    
-
-    }
+}
     
 #titulo {  
     animation-name: titulo;
     animation-duration: 4s;
     animation-iteration-count: infinite;
-    }
+}
  
     
 @keyframes titulo{
@@ -87,6 +85,7 @@ footer {
     100% { background-color: blue; color:white}
 }
 
+#titulo {}
 
 a{
     color: white;
@@ -113,4 +112,10 @@ li:hover {
 
 li {
     transform: rotate(20deg);
+
 }
+
+//img {
+//    transform: skewY(20deg);  
+//    transform: scaleY(1.5);
+//}
