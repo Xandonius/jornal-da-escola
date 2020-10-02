@@ -87,21 +87,30 @@ footer {
     100% { background-color: blue; color:white}
 }
 
+
 a{
     color: white;
     cursor: pointer;
 }
-a:hover{
-    color: salmon;
 
+a:hover {
+    color: red;
 }
 
+
 a:link{
-color: royalblue;
+color: whitesmoke;
 }
 
 a:visited{
-    color:whitesmoke;
+    color:royalblue;
 }
 
 
+li:hover {
+    background-color: blue;
+  }
+
+li {
+    transform: rotate(20deg);
+}
